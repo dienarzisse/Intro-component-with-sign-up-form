@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="script.js"></script>
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+
+  <main>
+    <div class="header-paragraph">
+      <h1>Learn to code by watching others</h1>
+      <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>
+    </div>
+  
+    <div class="signup">
+      <div class="trial">
+        <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+      <form class="signup-form">
+        <div class="input-error">
+          <input id="first-name" type="text" placeholder="First Name" name="first-name" required>
+          <img class="error-sign invalid-first-name" src="./images/icon-error.svg">
+        </div>
+        <label for="first-name"><b>First Name</b></label>
+        <p class="invalid-text invalid-first-name">First Name cannot be empty</p>
+
+        <div class="input-error">
+          <input id="last-name" type="text" placeholder="Last Name " name="last-name" required>
+          <img class="error-sign invalid-last-name" src="./images/icon-error.svg">
+        </div>
+        <label for="last-name"><b>Last Name</b></label>
+        <p class="invalid-text invalid-last-name">Last Name cannot be empty</p>
+
+        <div class="input-error">
+          <input id="email" type="email" placeholder="Email Address" name="email" required>
+          <img class="error-sign invalid-email" src="./images/icon-error.svg">
+        </div>
+        <label for="email"><b>Email</b></label>
+        <p class="invalid-text invalid-email">Looks like this is not an email</p>
+
+        <div class="input-error">
+          <input id="password" type="text" placeholder="Password" name="password" required>
+          <img class="error-sign invalid-password" src="./images/icon-error.svg">
+        </div>
+        <label for="password"><b>Email</b></label>
+        <p class="invalid-text invalid-password">Password cannot be empty</p>
+
+        <input class="claim" type="submit" value="Claim your free trial">
+        <p class="terms">By clicking the button, you are agreeing to our 
+          <a href="#">Terms and Services</a>
+        </p>
+      </form>
+    </div>
+  </main> 
+</body>
+</html>
