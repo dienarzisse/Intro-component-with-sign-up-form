@@ -168,5 +168,30 @@ label{
     .signup{
         min-width: 50%;
     }
+
+    input{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: 0.5rem 0;
+    }
+
+    h1{
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    p{
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .trial{
+        padding: 1rem 1rem;
+    }
+
+    .trial p{
+        font-size: 1rem;
+        text-align: center;
+    }
     
 }
